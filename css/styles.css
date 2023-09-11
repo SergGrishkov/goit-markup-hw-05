@@ -546,6 +546,89 @@ footer {
   margin-right: 120px;
 }
 
+.paragraph-footer {
+  display: block;
+  max-width: 264px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-icon-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-svg {
+  fill: #f4f4fd;
+}
+
+.footer-hover:hover,
+.footer-hover:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
+.footer-button {
+  padding: 0 24px;
+  min-width: 165px;
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #404bbf;
+}
+
+.footer-svg-icon {
+  margin-left: 16px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -654,6 +737,10 @@ footer {
   border-color: #4d5ae5;
 }
 
+.container-form {
+  margin-bottom: 8px;
+}
+
 .textarea-box {
   margin-bottom: 16px;
 }
@@ -693,6 +780,19 @@ footer {
   align-items: center;
   gap: 8px;
   margin-bottom: 24px;
+}
+
+.policy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
+}
+
+.policy-link {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.48px;
+  text-decoration-line: underline;
 }
 
 .checkbox-policy {
