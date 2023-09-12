@@ -738,6 +738,10 @@ footer {
   border-color: #4d5ae5;
 }
 
+.form-input:focus + svg {
+  fill: #4d5ae5;
+}
+
 .container-form {
   margin-bottom: 8px;
 }
