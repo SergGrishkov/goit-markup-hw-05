@@ -858,3 +858,9 @@ footer {
 .form-button:focus {
   background-color: #404bbf;
 }
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
